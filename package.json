@@ -1,0 +1,18 @@
+{
+  "name": "obt-isomorphic-fetch-error",
+  "version": "1.0.0",
+  "description": "Recreates an issue when using Origami Build Tools with isomorphic-fetch",
+  "main": "index.js",
+  "scripts": {
+    "build": "obt b --js=./src/main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Anthony Jeffery",
+  "license": "ISC",
+  "dependencies": {
+    "isomorphic-fetch": "^2.2.1"
+  },
+  "devDependencies": {
+    "origami-build-tools": "^7.3.0"
+  }
+}
